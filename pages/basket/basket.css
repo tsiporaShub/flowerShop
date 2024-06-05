@@ -1,0 +1,94 @@
+
+.div1{
+    width: 10000000%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.44);
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn-primary {
+    --bs-btn-color: rgb(0, 0, 0);
+    --bs-btn-bg: hsl(20deg 5.88% 90%);
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: rgb(0, 0, 0);
+    --bs-btn-hover-bg: #ffffff;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ffffff;
+    --bs-btn-active-border-color: #ffffff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ffffff;
+    --bs-btn-disabled-border-color: #ffffff;
+}
+
+#flowers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#flowers>div {
+    border: #000000 solid 1px;
+    padding: 5px;
+    margin: 8px;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#allPrice{
+    font-size: large;
+    text-align: center;
+}
+#flowers>div>div>div{
+    display: flex;
+    align-items: center;
+}
+#flowers>div>div>p>span{
+    font-weight: bold;
+}
+#flowers>div>div>div>p{
+    font-weight: bold;
+    margin: 0;
+}
+#flowers>div>div>div>input{
+    width: 60px;
+    height: 20px;
+}
+#flowers>div>img{
+    width: 180px;
+}
+
+#flowers>div>button{
+    width: 150px;
+    height: 60px;
+}
+#toPayDiv{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#toPayDiv>button{
+    width: 500px;
+}
+
+/* תשלום */
+
+#payPage>p{
+    margin-top: 20px;
+}
+
+#payPage>input{
+    margin: 5px;
+}
+
+
+#payPage>:last-child{
+    margin-right: 70px;
+    width: 200px;
+    border: #33863f solid 2px;
+}

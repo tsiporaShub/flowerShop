@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#conectForm{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#conectForm>p{
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+#conectForm>div{
+    margin: 20px 10px 20px 10px;
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+#conectForm>div>button{
+    width: 45%;
+}
+
+#conectForm>form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+    width: 370px;
+}
